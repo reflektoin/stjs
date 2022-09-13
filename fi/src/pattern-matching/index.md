@@ -1,20 +1,17 @@
 ---
 template: page
-title: "Pattern Matching"
-lede: "Using patterns to find things in data"
+title: "Hahmonsovitus"
+lede: "Hahmojen käyttäminen asioiden löytämiseksi datasta"
 ---
 
-We have been globbing to match filenames against patterns since [% x systems-programming %].
-This lesson will explore how that works
-by building a simple version of the [% i "regular expression" %][% g regular_expression %]regular expressions[% /g %][% /i %]
-used to match text in everything from editor and shell commands to web scrapers.
-Our approach is inspired by [% i "Kernighan, Brian" %][Brian Kernighan's][kernighan-brian][% /i %] entry
-in [% b Oram2007 %].
+Olemme käyttäneet tiedostonimi-jokereita(glob) löytääksemme hahmoja vastaavia tiedostonimiä kappaleesta [% x systems-programming %] lähtien.
+Tällä luennolla tutustumme sen toimintaan rakentamalla yksinkertaisen version [% i "regular expression" %][% g regular_expression %]säännöllisistä lausekkeista[% /g %][% /i %], joita käytetään etsimään vastaavia tekstin osia aina tekstinkäsittelyohjelmista shell-komentoihin ja verkkosivujen haravointiin.
+Lähestymistapaamme on inspiroinut [% i "Kernighan, Brian" %][Brian Kernighanin][kernighan-brian][% /i %] kohta kirjassa [% b Oram2007 %].
 
-Regular expressions have inspired pattern matching for many other kinds of data,
-such as [% i "query selector (for HTML)" %][% g query_selector %]query selectors[% /g %][% /i %] for HTML.
-They are easier to understand and implement than patterns for matching text,
-so we will start by looking at them.
+Säännölliset lausekkeet ovat inspiroineet hahmonsovituksen käyttämistä moneen muunlaiseen dataan,
+kuten esimerkiksi [% i "query selector (for HTML)" %][% g query_selector %]valitsimien kysely[% /g %][% /i %] HTML:ssä.
+Ne ovat helpompi ymmärtää ja toteuttaa kuin tekstinsovitus,
+joten aloitamme niistä.
 
 ## How can we match query selectors? {: #pattern-matching-selectors}
 

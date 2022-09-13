@@ -1,6 +1,8 @@
-#Finnish fork of Software Design by Example, Work In Progress
+# A Finnish fork of Software Design by Example, Work In Progress
 
 I'm starting from the chapter "Pattern matching".
+Web copy of the book seems to be [here](https://third-bit.com/sdxjs/pattern-matching/)
+
 
 ## A Tool-Based Introduction with JavaScript
 
