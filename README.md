@@ -1,4 +1,7 @@
-# Software Design by Example
+#Finnish fork of Software Design by Example, Work In Progress
+
+I'm starting from the chapter "Pattern matching".
+
 ## A Tool-Based Introduction with JavaScript
 
 The best way to learn design in any field is to study examples,
